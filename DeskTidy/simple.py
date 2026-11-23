@@ -336,6 +336,10 @@ class SimpleView(tk.Frame):
             return None
 
     def _save_snapshot(self) -> None:
+        """只记录第一次排布前的布局，连续排布不会覆盖，保证「恢复布局」回到最初状态。"""
+        if SNAPSHOT_FILE.exists():
+            self.restore_btn.state(["!disabled"])
+            return
         try:
             positions = desktop_layout.read_positions()
             SNAPSHOT_FILE.write_text(
@@ -356,6 +360,8 @@ class SimpleView(tk.Frame):
         except Exception as exc:
             messagebox.showerror("恢复失败", str(exc))
             return
+        SNAPSHOT_FILE.unlink(missing_ok=True)
+        self.restore_btn.state(["disabled"])
         messagebox.showinfo("已恢复", "已恢复 %d 个图标的原位置。" % count)
 
     # ---------------- 首次使用引导 ----------------
