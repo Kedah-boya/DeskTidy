@@ -20,6 +20,10 @@ Windows 10 / 11 · Python 3.9+ · 无需第三方依赖（打包版免安装）
 
 ## 使用
 
+### 下载免安装版
+
+到 [Releases](https://github.com/Kedah-boya/DeskTidy/releases/latest) 下载 `DeskTidy-v1.0.0-win64.zip`，解压后双击 `DeskTidy.exe`。需要与 `_internal` 目录放在一起。
+
 ### 运行打包版
 
 双击 `DeskTidy.exe`。首次启动会显示引导，建议先用演练模式看一遍效果。
