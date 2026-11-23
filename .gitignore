@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 构建产物
+build/
+dist/
+*.spec.bak
+
+# 运行时数据（本地记录、日志、报告、快照）
+DeskTidy/data/
+
+# 编辑器
+.vscode/
+.idea/

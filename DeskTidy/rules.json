@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "pinned_category": "保持原位",
+  "fallback_folder": "资料文件夹",
+  "fallback_other": "其他",
+  "ignore_patterns": ["desktop.ini", "*.tmp", "~$*", "*.crdownload", "*.part"],
+  "ignore_hidden": true,
+  "categories": [
+    {
+      "name": "常用",
+      "folder": "",
+      "color": "#3b6ff5",
+      "keywords": ["微信", "wechat", "qq", "tim", "microsoft edge", "chrome", "google chrome", "firefox", "抖音", "douyin", "bilibili", "哔哩哔哩", "火绒", "钉钉", "dingtalk", "telegram", "trae", "wps", "网易云", "qq音乐"],
+      "extensions": []
+    },
+    {
+      "name": "游戏娱乐",
+      "folder": "01-游戏",
+      "color": "#ef6b6b",
+      "keywords": ["steam", "wegame", "league of legends", "英雄联盟", "lol", "pbe", "minecraft", "我的世界", "pcl", "forge", "模拟器", "mumu", "战网", "battle.net", "blizzard", "暴雪", "epic", "uplay", "ubisoft", "rockstar", "原神", "genshin", "崩坏", "加速器", "迅游", "雷神", "幸运方块", "游戏", "game", "gameloop", "网易游戏"],
+      "extensions": []
+    },
+    {
+      "name": "开发工具",
+      "folder": "02-开发",
+      "color": "#5b8def",
+      "keywords": ["visual studio", "vscode", "vs code", "trae", "intellij", "idea", "pycharm", "webstorm", "clion", "goland", "sourcetree", "github", "gitlab", "git", "python", "anaconda", "jdk", "java", "node", "docker", "postman", "apifox", "navicat", "sqlyog", "mysql", "redis", "数据库", "sqlite", "dev-c++", "devcpp", "mingw", "qt", "unity", "cocos", "hbuilder", "android studio", "xshell", "xftp", "putty", "mobaxterm", "windbg", "ida", "charles", "fiddler", "terminal", "终端", "cmd", "powershell", "wsl", "编程", "开发"],
+      "extensions": [".py", ".js", ".ts", ".java", ".json", ".sql", ".ipynb"]
+    },
+    {
+      "name": "办公文档",
+      "folder": "03-办公",
+      "color": "#4fb477",
+      "keywords": ["office", "word", "excel", "powerpoint", "wps", "onenote", "outlook", "acrobat", "adobe reader", "pdf", "福昕", "notepad", "记事本", "sublime", "obsidian", "typora", "有道", "印象笔记", "evernote", "石墨", "腾讯文档", "飞书文档", "钉钉文档", "xmind", "visio", "jobmatch", "简历", "合同", "报表", "文档"],
+      "extensions": [".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".csv", ".one"]
+    },
+    {
+      "name": "影音社交",
+      "folder": "04-影音社交",
+      "color": "#b06fe0",
+      "keywords": ["抖音", "douyin", "tiktok", "bilibili", "哔哩哔哩", "网易云", "qq音乐", "qq", "spotify", "potplayer", "vlc", "播放器", "剪映", "capcut", "premiere", "爱奇艺", "腾讯视频", "优酷", "微信", "wechat", "telegram", "discord", "微博", "小红书", "快手", "obs", "audition", "音乐", "视频", "录屏"],
+      "extensions": [".mp4", ".mkv", ".avi", ".mov", ".flv", ".mp3", ".flac", ".wav", ".jpg", ".jpeg", ".png", ".gif", ".webp"]
+    },
+    {
+      "name": "网络下载",
+      "folder": "05-网络",
+      "color": "#31b3c6",
+      "keywords": ["chrome", "edge", "firefox", "浏览器", "browser", "夸克", "quark", "opera", "brave", "迅雷", "thunder", "motrix", "idm", "aria2", "比特彗星", "qbittorrent", "下载", "vpn", "clash", "v2ray", "远程", "uu远程", "todesk", "sunlogin", "向日葵", "anydesk", "teamviewer", "网络", "proxy"],
+      "extensions": [".url", ".html", ".htm"]
+    },
+    {
+      "name": "系统工具",
+      "folder": "06-工具",
+      "color": "#8a93a6",
+      "keywords": ["7-zip", "7zip", "bandizip", "winrar", "360压缩", "解压", "压缩", "火绒", "杀毒", "安全", "驱动", "driver", "管家", "清理", "ccleaner", "snipaste", "截图", "输入法", "控制面板", "设置", "回收站", "此电脑", "我的电脑", "任务管理器", "注册表", "显卡", "nvidia", "geforce", "realtek", "intel", "系统"],
+      "extensions": []
+    },
+    {
+      "name": "AI 助手",
+      "folder": "07-AI",
+      "color": "#e0a03f",
+      "keywords": ["豆包", "doubao", "chatgpt", "claude", "kimi", "通义", "文心", "智谱", "copilot", "cursor", "windsurf", "trae", "dumate", "workbuddy", "perplexity", "gemini", "混元", "星火", "大模型"],
+      "extensions": []
+    },
+    {
+      "name": "资料文件夹",
+      "folder": "08-资料",
+      "color": "#c98b4b",
+      "keywords": [],
+      "extensions": []
+    },
+    {
+      "name": "其他",
+      "folder": "99-其他",
+      "color": "#7a7f8c",
+      "keywords": [],
+      "extensions": []
+    }
+  ]
+}
